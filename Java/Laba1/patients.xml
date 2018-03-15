@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<patients>
+    <patient id="1">
+        <firstName>Kolya</firstName>
+        <lastName>Volya</lastName>
+        <wardsNumber>1</wardsNumber>
+        <diagnosis>Cold</diagnosis>
+    </patient>
+    <patient id="2">
+        <firstName>Slava</firstName>
+        <lastName>Satane</lastName>
+        <wardsNumber>4</wardsNumber>
+        <diagnosis>Cold</diagnosis>
+    </patient>
+    <patient id="3">
+        <firstName>Jim</firstName>
+        <lastName>Reynor</lastName>
+        <wardsNumber>3</wardsNumber>
+        <diagnosis>Cold</diagnosis>
+    </patient>
+    <patient id="4">
+        <firstName>Sara</firstName>
+        <lastName>Kerrigan</lastName>
+        <wardsNumber>1</wardsNumber>
+        <diagnosis>Cold</diagnosis>
+    </patient>
+</patients>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema version="1.0"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            elementFormDefault="qualified" xmlns:msdata="http://www.w3.org/1999/XSL/Transform">
+    <xsd:element name="patients" type="patients"/>
+
+    <xsd:complexType name="patients">
+        <xsd:sequence>
+            <xsd:element name="patient"
+                         type="patient"
+                         minOccurs="0"
+                         maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="patient">
+        <xsd:sequence>
+            <xsd:element type="xsd:string" name="firstName"/>
+            <xsd:element type="xsd:string" name="lastName"/>
+            <xsd:element type="xsd:integer" name="wardsNumber"/>
+            <xsd:element type="xsd:string" name="diagnosis"/>
+        </xsd:sequence>
+        <xsd:attribute name="id" type="xsd:integer" use="required"/>
+    </xsd:complexType>
+
+</xsd:schema>
