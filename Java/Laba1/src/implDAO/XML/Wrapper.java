@@ -9,7 +9,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 import java.util.List;
 
 /**
- * <p>Класс-обертка , содержащий список пациентов</p>
+ * <p>Класс-обертка , содержащий список пациентовавы</p>
  *
  * @author Pechenev Nikolai
  * @version 1.1
