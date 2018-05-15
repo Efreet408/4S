@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>s1</servlet-name>
+        <jsp-file>/jsp/name.jsp</jsp-file>
+    </servlet>
+    <servlet>
+        <servlet-name>s2</servlet-name>
+        <jsp-file>/jsp/pizza.jsp</jsp-file>
+    </servlet>
+    <servlet>
+        <servlet-name>s3</servlet-name>
+        <jsp-file>/jsp/order.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>s1</servlet-name>
+        <url-pattern>/1</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>s2</servlet-name>
+        <url-pattern>/2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>s3</servlet-name>
+        <url-pattern>/3</url-pattern>
+    </servlet-mapping>
+</web-app>
